@@ -1,6 +1,6 @@
 # Javascript30
 
-30 Day Vanilla JS Coding Challenge <br>   
+30 Day Vanilla JS Coding Challenge without any frameworks, no compilers, no boilerplate, and no libraries.<br>   
 Build 30 Things in 30 days with 30 Tutorials by [Wes Bos](http://github.com/wesbos/JavaScript30)
 
 

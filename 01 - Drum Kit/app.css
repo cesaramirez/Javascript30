@@ -66,4 +66,9 @@ kbd {
   color: white;  
   margin-left: 1rem;
   text-decoration: none;
+} 
+
+.links > a:hover {
+  color: #ffc600;
+  transition: all 0.5s ease;
 }
