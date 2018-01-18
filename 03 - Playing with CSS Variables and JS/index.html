@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playing with CSS Variables and JS</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h2>Update
+        <span class='hl2'>CSS</span> Variables with
+        <span class='hl'>JS</span>
+    </h2>
+
+    <div class="controls">
+        <div class="control">
+            <label for="spacing">Spacing:</label>
+            <input id="spacing" type="range" name="spacing" min="10" max="200" value="20" data-sizing="px">
+        </div>
+        <div class="control">
+            <label for="blur">Blur:</label>
+            <input id="blur" type="range" name="blur" min="0" max="25" value="1" data-sizing="px">
+        </div>
+    </div>
+    <div class="controls">
+        <div class="control">
+            <label for="grayscale">Grayscale:</label>
+            <input id="grayscale" type="range" name="grayscale" min="0" max="100" value="0" data-sizing="%">
+        </div>
+        <div class="control">
+            <label for="degrees">Degrees:</label>
+            <input id="degrees" type="range" name="degrees" min="-45" max="45" value="0" data-sizing="deg">
+        </div>
+    </div>
+    <div class="controls">
+        <div class="control">
+            <label for="base">Base Color</label>
+            <input id="base" type="color" name="base" value="#8e44ad" class="pick-color">
+        </div>
+        <div class="control">
+            <label for="secondary">Secondary Color</label>
+            <input id="secondary" type="color" name="secondary" value="#c0392b" class="pick-color">
+        </div>
+    </div>
+
+    <img src="https://picsum.photos/700/450/?random" width="50%">
+
+    <script src="app.js"></script>
+</body>
+
+</html>

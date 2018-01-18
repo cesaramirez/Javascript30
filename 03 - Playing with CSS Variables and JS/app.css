@@ -1,0 +1,85 @@
+/*
+    misc styles, nothing to do with CSS variables
+*/
+:root {
+  --base: #8e44ad;
+  --secondary: #c0392b;
+  --spacing: 20px;
+  --blur: 1px;
+  --grayscale: 0%;
+  --degrees: 0deg;
+  --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur)) grayscale(var(--grayscale));
+  transform: rotate(var(--degrees));
+  box-shadow: var(--shadow);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.hl {
+  color: var(--base);
+  -webkit-text-stroke: 0.75px white;
+}
+
+.hl2 {
+  color: var(--secondary);
+  -webkit-text-stroke: 0.75px white;
+}
+
+body {
+  text-align: center;
+  background: #c0392b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    var(--base),
+    var(--secondary)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    var(--base),
+    var(--secondary)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.controls {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.control {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+input {
+  width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .controls {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+}
