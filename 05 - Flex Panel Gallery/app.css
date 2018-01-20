@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background: #ffc600;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .panel {
-    cursor: pointer;
+  cursor: pointer;
   background: #6b0f9c;
   color: white;
   text-align: center;
@@ -39,16 +39,16 @@ body {
 }
 
 .panel1 {
-  background: #2196f3; /* fallback for old browsers */
+  background: #4776e6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to bottom,
-    #f44336,
-    #2196f3
+    to top,
+    #8e54e9,
+    #4776e6
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to bottom,
-    #f44336,
-    #2196f3
+    to top,
+    #8e54e9,
+    #4776e6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .panel2 {
@@ -78,34 +78,34 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .panel4 {
-  background: #1d4350; /* fallback for old browsers */
+  background: #fc4a1a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to bottom,
-    #a43931,
-    #1d4350
+    to top,
+    #f7b733,
+    #fc4a1a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to bottom,
-    #a43931,
-    #1d4350
+    to top,
+    #f7b733,
+    #fc4a1a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .panel5 {
-  background: #a80077; /* fallback for old browsers */
+  background: #00b09b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to bottom,
-    #66ff00,
-    #a80077
+    to top,
+    #96c93d,
+    #00b09b
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to bottom,
-    #66ff00,
-    #a80077
+    to top,
+    #96c93d,
+    #00b09b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Flex Items */
-.panel > * {    
+.panel > * {
   margin: 0;
   width: 100%;
   transition: transform 0.9s;
